@@ -16,6 +16,9 @@ string make_daytime_string()
 int main()
 {
 	try {
+		char buf[] = "server start";
+
+		cout.write(buf, sizeof(buf));
 
 		boost::asio::io_service io_service;
 
